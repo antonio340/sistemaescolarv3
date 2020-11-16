@@ -1,0 +1,11 @@
+{
+  "name": "sistemaescolarv3",
+  "version": "1.0.0",
+  "description": "sistemaescolarv3",
+  "main": "index.js",
+  "author": "antonio <anthony_341@outlook.es>",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.9.1"
+  }
+}
