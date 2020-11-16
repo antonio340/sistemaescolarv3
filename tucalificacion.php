@@ -26,6 +26,7 @@ require 'config\database.php';
  }
  else
  {
+   
    //se muestran los datos guardados dentro de la tabla
    $esp_echo = DB::table('calificaciones')->where('idcalificaciones', $tablaID)->value('esp');
    $mat_echo = DB::table('calificaciones')->where('idcalificaciones', $tablaID)->value('mat');
@@ -48,4 +49,4 @@ require 'config\database.php';
         echo '<br><br><strong> Wow! incredible</strong>';
     }
  }
-
+ 

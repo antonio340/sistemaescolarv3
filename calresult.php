@@ -20,7 +20,7 @@ $revisionID=0;
 $revisionID= DB::table('calificaciones')->where('alumnos_idalumnos', $alumnoID)->value('alumnos_idalumnos');
 
 
-if ($alumnoID==null or $cal1==null or $cal2==null or $cal3=null)
+if ($alumnoID==null or $cal1==null or $cal2==null or $cal3==null)
 {
 echo '<img src="notfound.png" alt="" height="200px" width="500px">';
 }

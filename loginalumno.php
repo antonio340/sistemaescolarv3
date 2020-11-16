@@ -28,7 +28,7 @@ else{
     session_start();
     $_SESSION["alumno"]=$nombre;
     echo 'ingresaste como alumno';
-    header("location:index.php");
+    header("location:tucalificacion.php");
     
  }
  else
